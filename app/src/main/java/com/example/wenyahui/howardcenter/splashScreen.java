@@ -28,7 +28,7 @@ public class splashScreen extends Activity {
                     sleep(2000);
                 } catch (InterruptedException e) {
                 } finally {
-                    startActivity(new Intent(splashScreen.this, newsActivity.class));
+                    startActivity(new Intent(splashScreen.this, MainActivity.class));
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 finish();
@@ -37,29 +37,5 @@ public class splashScreen extends Activity {
         screenDisplayTimer.start();
     }
 
-//        splashTread = new Thread() {
-//            @Override
-//            public void run() {
-//                try {
-//                    int waited = 0;
-//                    // Splash screen pause time
-//                    while (waited < 3500) {
-//                        sleep(100);
-//                        waited += 100;
-//                    }
-//                    Intent intent = new Intent(splashScreen.this,
-//                            newsActivity.class);
-//                    intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-//                    startActivity(intent);
-//                    splashScreen.this.finish();
-//                } catch (InterruptedException e) {
-//                    // do nothing
-//                } finally {
-//                    splashScreen.this.finish();
-//                }
-//
-//            }
-//        };
-//        splashTread.start();
            }
 

@@ -25,7 +25,7 @@ public class newsActivity extends AppCompatActivity {
     private TextView view3;
     private Articles[] mArticlesBank=new Articles[]{
             new Articles(R.string.article1,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView1),
-           // new Articles(R.string.article2,"<a href='http://www.google.com'>article2</a>",view2,R.id.textView2),
+            new Articles(R.string.article2,"<a href='http://www.google.com'>article2</a>",view2,R.id.textView2),
            //  new Articles(R.string.article3,"<a href='http://www.google.com'>article3</a>",view3,R.id.textView3)
     };
     private int mCurrentIndex=0;

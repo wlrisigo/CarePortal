@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">News</string>
     <string name="article1">article1</string>
     <string name="article2">article2</string>
     <string name="article3">article3</string>
     <string name="true_button">True</string>
+    <string name="app_name">CarePortal</string>
+    <string name="help_button">Talk Button</string>
+    <string name="news_button">Self-Advocacy</string>
+    <string name="health_button">Health and Wellness</string>
 
 </resources>
