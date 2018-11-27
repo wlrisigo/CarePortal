@@ -1,101 +1,46 @@
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
+    android:background="#D9DBDD"
+    android:gravity="fill_horizontal"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:adjustViewBounds="true"
-            android:background="#00000000"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/help" />
-
-        <Button
-            android:id="@+id/help_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:fontFamily="serif"
-            android:text="@string/help_button"
-            android:textAlignment="viewStart"
-            android:textAllCaps="false"
-            android:textSize="34dp" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/help_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+    <Button
+        android:id="@+id/news_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/news_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
 
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:adjustViewBounds="true"
-            android:background="#00000000"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/news" />
-
-        <Button
-            android:id="@+id/news_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:fontFamily="serif"
-            android:text="@string/news_button"
-            android:textAlignment="viewStart"
-            android:textAllCaps="false"
-            android:textSize="34dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:adjustViewBounds="true"
-            android:background="#00000000"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/health" />
-
-        <Button
-            android:id="@+id/health_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:fontFamily="serif"
-            android:text="@string/health_button"
-            android:textAlignment="viewStart"
-            android:textAllCaps="false"
-            android:textSize="34dp" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/health_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/health_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
 
 
 </LinearLayout>
-
