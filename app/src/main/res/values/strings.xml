@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Howard Center</string>
+    <string name="App1">Medisafe</string>
+    <string name="App2">Virtual Hope Box</string>
+    <string name="App3">Mood Space</string>
+    <string name="App4">Money Manager</string>
+    <string name="App5">Dbt911</string>
+    <string name="App6">Facebook</string>
+
+</resources>
