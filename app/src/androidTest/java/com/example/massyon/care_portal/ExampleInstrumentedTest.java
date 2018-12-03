@@ -1,4 +1,4 @@
-package com.example.massyon.phonecall;
+package com.example.massyon.care_portal;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.massyon.phonecall", appContext.getPackageName());
+        assertEquals("com.example.massyon.care_portal", appContext.getPackageName());
     }
 }
