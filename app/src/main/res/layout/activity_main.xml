@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/help_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
+
+
+    <Button
+        android:id="@+id/news_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/news_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
+
+    <Button
+        android:id="@+id/health_button"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="serif"
+        android:text="@string/health_button"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="34dp" />
+
+
+</LinearLayout>
