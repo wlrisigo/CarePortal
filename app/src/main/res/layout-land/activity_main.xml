@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,28 +15,54 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/incoming"
-        android:orientation="vertical">
-        <!-- EditText for entering a phone number  -->
+
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+
+
         <TextView
-        android:id="@+id/text_main1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:id="@+id/text_main1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
 
-        android:layout_margin="15dp"
-        android:inputType="phone"
-        android:text="802-777-7928"
-        android:textColor="#990000"
-            android:textStyle="bold"
-        android:textSize="35sp"
-        />
+            android:layout_margin="15dp"
+            android:inputType="phone"
+            android:text="802-777-7928"
+            android:textColor="#990000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
+
+        <TextView
+            android:id="@+id/text_main2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_margin="25dp"
+            android:inputType="phone"
+            android:text="617-817-3687"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="550dp"
+        android:layout_height="187dp"
+
+        android:layout_gravity="center|center_horizontal"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/phone_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
             android:layout_margin="30dp"
             android:layout_toEndOf="@id/text_main1"
             android:layout_toRightOf="@id/text_main1"
@@ -45,24 +71,11 @@
             android:src="@drawable/call"
             android:visibility="visible" />
 
-        <TextView
-            android:id="@+id/text_main2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_margin="25dp"
-            android:inputType="phone"
-            android:text="617-817-3687"
-            android:textStyle="bold|italic"
-            android:textColor="#000000"
-            android:textSize="35sp" />
-
-
-
         <ImageButton
             android:id="@+id/phone_icon1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
             android:layout_margin="30dp"
             android:layout_toEndOf="@id/text_main2"
             android:layout_toRightOf="@id/text_main2"
@@ -70,8 +83,6 @@
             android:onClick="callNumber2"
             android:src="@drawable/call"
             android:visibility="visible" />
-
-
     </LinearLayout>
 
     <Button
@@ -79,8 +90,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="34dp"
         android:contentDescription="@string/retry"
         android:onClick="retryApp"
         android:text="@string/retry"
@@ -98,4 +111,4 @@
         android:text="erere"/>
 
 
-</LinearLayout>
+    </FrameLayout>

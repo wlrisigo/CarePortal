@@ -17,14 +17,17 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+
 import android.widget.TextView;
 
 import android.widget.ImageButton;
 import android.widget.Toast;
-import android.app.AlertDialog.Builder;
+
+
 
 import android.app.AlertDialog;
+
+import android.content.DialogInterface;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+       /* AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(R.string.dialog_fire_missiles)
                 .setPositiveButton(R.string.fire, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
@@ -55,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         // Create the AlertDialog object and return it
         return builder.create();*/
+
         mTelephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 
         if (isTelephonyEnabled()) {
