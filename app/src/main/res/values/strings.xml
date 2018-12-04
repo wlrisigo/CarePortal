@@ -4,14 +4,18 @@
     <string name="article3">article3</string>
     <string name="true_button">True</string>
     <string name="app_name">CarePortal</string>
-    <string name="help_button">Talk Button</string>
-    <string name="news_button">Self-Advocacy</string>
-    <string name="health_button">Health and Wellness</string>
+    <string name="help_button">Help</string>
+    <string name="news_button">Local News</string>
+    <string name="health_button">Apps</string>
     <string name="App1">Medisafe</string>
     <string name="App2">Virtual Hope Box</string>
     <string name="App3">Mood Space</string>
     <string name="App4">Money Manager</string>
     <string name="App5">Dbt911</string>
     <string name="App6">Facebook</string>
+    <string name="NEWS">Facebook</string>
+    <string name="PHONE">Facebook</string>
+    <string name="APPS">Facebook</string>
+
 
 </resources>

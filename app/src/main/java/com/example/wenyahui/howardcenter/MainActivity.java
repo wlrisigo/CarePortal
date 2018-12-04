@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         health.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, healthActivity.class);
+                Intent intent = new Intent(MainActivity.this, ViewApps.class);
                 startActivity(intent);
 
             }

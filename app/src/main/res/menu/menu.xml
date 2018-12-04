@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/PHONE"
+        android:icon="@drawable/phone"
+        android:title="@string/PHONE"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/NEWS"
+        android:icon="@drawable/news"
+        android:title="@string/NEWS" />
+    <item android:id="@+id/APPS"
+        android:icon="@drawable/apps"
+        android:title="@string/APPS" />
+</menu>
