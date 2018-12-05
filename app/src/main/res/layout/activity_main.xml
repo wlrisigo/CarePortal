@@ -1,45 +1,74 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/backgroundfinal"
     android:gravity="fill_horizontal"
     android:orientation="vertical">
 
-    <Button
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/mainlogo"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="34dp" />
+
+    <TextView
         android:id="@+id/help_button"
         android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="87dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/button_custom"
-        android:fontFamily="serif"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#6b262b44"
+        android:clickable="true"
+        android:fontFamily="@font/open_sans_extrabold"
+        android:paddingTop="15sp"
         android:text="@string/help_button"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textSize="34dp" />
+        android:textColor="@android:color/white"
+        android:textSize="34dp"
+        tools:fontFamily="@font/open_sans_extrabold" />
 
 
-    <Button
+    <TextView
         android:id="@+id/news_button"
         android:layout_width="match_parent"
-        android:layout_height="175dp"
+        android:layout_height="87dp"
         android:layout_marginBottom="15dp"
-        android:background="@drawable/button_custom"
-        android:fontFamily="serif"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#6b262b44"
+        android:clickable="true"
+        android:fontFamily="@font/open_sans_extrabold"
+        android:paddingTop="15sp"
         android:text="@string/news_button"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="@android:color/white"
         android:textSize="34dp" />
 
-    <Button
+    <TextView
         android:id="@+id/health_button"
         android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="@drawable/button_custom"
-        android:fontFamily="serif"
+        android:layout_height="87dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#6b262b44"
+        android:clickable="true"
+        android:fontFamily="@font/open_sans_extrabold"
+        android:paddingTop="15sp"
         android:text="@string/health_button"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="@android:color/white"
         android:textSize="34dp" />
 
 
