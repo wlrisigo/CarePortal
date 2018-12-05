@@ -52,16 +52,55 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="550dp"
-        android:layout_height="187dp"
+        android:layout_width="464dp"
+        android:layout_height="247dp"
 
-        android:layout_gravity="center|center_horizontal"
+        android:layout_gravity="bottom|center_horizontal|center"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+
+            android:inputType="textPersonName"
+            android:text="         (Main Office)"
+            android:textColor="#990000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+
+            android:inputType="textPersonName"
+            android:text="                        (S. Burlington)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="230dp"
+
+        android:layout_gravity="center_horizontal|center"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/phone_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="174dp"
+            android:layout_height="123dp"
             android:layout_gravity="bottom|left"
             android:layout_margin="30dp"
             android:layout_toEndOf="@id/text_main1"
@@ -73,8 +112,8 @@
 
         <ImageButton
             android:id="@+id/phone_icon1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="174dp"
+            android:layout_height="123dp"
             android:layout_gravity="bottom|right"
             android:layout_margin="30dp"
             android:layout_toEndOf="@id/text_main2"
