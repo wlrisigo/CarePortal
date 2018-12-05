@@ -3,15 +3,37 @@
     <string name="article2">article2</string>
     <string name="article3">article3</string>
     <string name="true_button">True</string>
-    <string name="app_name">CarePortal</string>
-    <string name="help_button">Talk Button</string>
-    <string name="news_button">Self-Advocacy</string>
-    <string name="health_button">Health and Wellness</string>
+    <string name="app_name">Care Portal</string>
+    <string name="help_button">Call for Help</string>
+    <string name="news_button">Local News</string>
+    <string name="health_button">Apps</string>
     <string name="App1">Medisafe</string>
     <string name="App2">Virtual Hope Box</string>
     <string name="App3">Mood Space</string>
     <string name="App4">Money Manager</string>
     <string name="App5">Dbt911</string>
     <string name="App6">Facebook</string>
+    <string name="NEWS">News</string>
+    <string name="PHONE">Phone</string>
+    <string name="APPS">Apps</string>
+    <string name="show">Show</string>
+    <string name="phoneNumber">802-000-0000</string>
+    <string name="phoneNumber1">911</string>
+    <string name="phone_status">"Phone Status: "</string>
+    <string name="ringing">"RINGING, number: "</string>
+    <string name="offhook">OFFHOOK</string>
+    <string name="idle">IDLE</string>
+    <string name="restarting_app">Restarting app</string>
+    <string name="permission_not_granted">PERMISSION NOT GRANTED!</string>
+    <string name="dial_number">"Phone Status: DIALING: "</string>
+    <string name="failure_permission">Failure to obtain permission!</string>
+    <string name="telephony_enabled">Telephony is enabled</string>
+    <string name="telephony_not_enabled">"TELEPHONY NOT ENABLED! "</string>
+    <string name="call">Call</string>
+    <string name="make_a_call">Make a call</string>
+    <string name="phone_disabled">Phone calling disabled.</string>
+    <string name="phone_abled"></string>
+    <string name="retry">Retry</string>
+
 
 </resources>
