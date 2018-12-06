@@ -41,7 +41,8 @@
             android:contentDescription="@string/make_a_call"
             android:onClick="callNumber1"
             android:src="@drawable/call"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:background="#00000000"/>
 
         <TextView
             android:id="@+id/Text4"
@@ -66,7 +67,8 @@
             android:contentDescription="@string/make_a_call"
             android:onClick="callNumber2"
             android:src="@drawable/call"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:background="#00000000"/>
 
 
     </LinearLayout>
