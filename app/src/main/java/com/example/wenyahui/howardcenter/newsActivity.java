@@ -1,21 +1,16 @@
 package com.example.wenyahui.howardcenter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
-
-
 import java.util.ArrayList;
 import java.util.List;
 public class newsActivity extends AppCompatActivity {
-    private TextView mTextSample;
-    private TextView view1;
-    private TextView view2;
-    private TextView view3;
-    private TextView view4;
-    private TextView view5;
+
     private static final String TAG = "newsActivity";
     newsInfo c1;
     @Override
@@ -39,24 +34,14 @@ public class newsActivity extends AppCompatActivity {
         List<newsInfo> result = new ArrayList<newsInfo>();
         for (int i=1; i <= size; i++) {
             newsInfo ci = new newsInfo();
-            ci.mTextView = newsInfo.TEXTVIEW_PREFIX + i;
+            ci.mTextView = (TextView)findViewById(R.id.textView);
+            //ci.mDescription= (TextView)findViewById(R.id.description);
             ci.mDescription= newsInfo.DESCRIPTION_PREFIX + i;
-            //ci.mImageView = newsInfo.IMAGE_PREFIX+ i ;
+
 
             result.add(ci);
 
         }
-//        newsInfo c1 = new newsInfo(R.string.article1,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView);
-//        newsInfo c2 = new newsInfo(R.string.article2,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView);
-//        newsInfo c3 = new newsInfo(R.string.article3,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView);
-//        newsInfo c4 = new newsInfo(R.string.article4,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView);
-//        newsInfo c5 = new newsInfo(R.string.article1,"<a href='http://www.google.com'>article1</a>",view1,R.id.textView);
-//
-//        result.add(c1);
-//        result.add(c2);
-//        result.add(c3);
-//        result.add(c4);
-//        result.add(c5);
         return result;
     }
 

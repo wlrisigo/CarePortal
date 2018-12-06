@@ -8,64 +8,61 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-
     android:background="@drawable/backgroundfinal"
 >
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="221dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/incoming"
+
+
         android:orientation="vertical">
         <!-- EditText for entering a phone number  -->
-        <TextView
-            android:id="@+id/text_main1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:layout_margin="15dp"
-            android:inputType="phone"
-            android:text="802-777-7928"
-            android:textColor="#990000"
-            android:textStyle="bold"
+        <TextView
+            android:id="@+id/Text3"
+            android:layout_width="269dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textPersonName"
+            android:text="District 1"
+            android:textColor="#900000"
             android:textSize="35sp"
-            />
+            android:textStyle="bold" />
 
 
         <ImageButton
             android:id="@+id/phone_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="right"
             android:layout_margin="30dp"
-            android:layout_toEndOf="@id/text_main1"
-            android:layout_toRightOf="@id/text_main1"
             android:contentDescription="@string/make_a_call"
             android:onClick="callNumber1"
             android:src="@drawable/call"
             android:visibility="visible" />
 
         <TextView
-            android:id="@+id/text_main2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_margin="25dp"
-            android:inputType="phone"
-            android:text="617-817-3687"
-            android:textStyle="bold|italic"
+            android:id="@+id/Text4"
+            android:layout_width="269dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textPersonName"
+            android:text="District 2"
             android:textColor="#000000"
-            android:textSize="35sp" />
-
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
 
         <ImageButton
             android:id="@+id/phone_icon1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="right"
             android:layout_margin="30dp"
-            android:layout_toEndOf="@id/text_main2"
-            android:layout_toRightOf="@id/text_main2"
+
             android:contentDescription="@string/make_a_call"
             android:onClick="callNumber2"
             android:src="@drawable/call"
@@ -74,9 +71,46 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="134dp"
+        android:layout_height="551dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_main1"
+            android:layout_width="237dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="15dp"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:inputType="phone"
+            android:text="(802-777-7928)"
+            android:textColor="#900000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_main2"
+            android:layout_width="124dp"
+            android:layout_height="384dp"
+
+            android:layout_margin="15dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="phone"
+            android:text="(617-817-3687)"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/button_retry"
-        android:layout_width="wrap_content"
+        android:layout_width="36dp"
         android:layout_height="wrap_content"
 
         android:layout_alignParentEnd="true"

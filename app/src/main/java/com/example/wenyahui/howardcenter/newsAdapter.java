@@ -10,8 +10,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
+
 public class newsAdapter extends RecyclerView.Adapter<newsAdapter.newsViewHolder>{
     private List<newsInfo> newsList;
+    private TextView mTextSample;
     public newsAdapter(List<newsInfo> newsList) {
         this.newsList = newsList;
     }
@@ -24,8 +28,14 @@ public class newsAdapter extends RecyclerView.Adapter<newsAdapter.newsViewHolder
     @Override
     public void onBindViewHolder(newsViewHolder newsViewHolder, int i) {
         newsInfo ci = newsList.get(i);
-        newsViewHolder.mTextView.setText(ci.mTextView);
+        newsViewHolder.mTextView.setText(R.string.article1);
+        //newsViewHolder.mDescription.setText("Description");
         newsViewHolder.mDescription.setText(ci.mDescription);
+        mTextSample=newsViewHolder.mTextView;
+        String linkText = "www.gmsavt.org";
+        mTextSample.setText(Html.fromHtml("<a href='http://www.gmsavt.org'>Article</a>"));
+        mTextSample.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
     @Override
     public newsViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {

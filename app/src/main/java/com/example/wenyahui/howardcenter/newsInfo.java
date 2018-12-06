@@ -14,7 +14,7 @@ public class newsInfo {
     protected String mlink;
     protected TextView mView;
     protected int mTextViewId;
-    protected String mTextView;
+    protected TextView mTextView;
     protected String mDescription;
     protected String mImageView;
     protected ImageView mImage;
@@ -22,7 +22,6 @@ public class newsInfo {
     public newsInfo() {
 
     }
-
     public newsInfo(int articleId,String link, TextView view, int textViewId){
         mArticleId=articleId;
         mlink=link;
